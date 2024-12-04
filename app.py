@@ -5,9 +5,14 @@ from xgboost.sklearn import XGBRegressor
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 
+import dagshub
 import mlflow
 import mlflow.sklearn
 import mlflow.xgboost
+
+# initilaize DagsHub
+dagshub.init(repo_owner='yuvraj-solanki-2406', repo_name='my-first-repo', mlflow=True)
+
 
 X, y = make_regression(n_features=4, n_informative=2, random_state=0, shuffle=False)
 X_train, X_test, y_train, y_test = train_test_split(
