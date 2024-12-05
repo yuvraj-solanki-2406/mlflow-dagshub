@@ -1,0 +1,5 @@
+outs:
+- md5: 70e274d1bee544f485abfe5853966271
+  size: 21165
+  hash: md5
+  path: tecdemy_courses.csv

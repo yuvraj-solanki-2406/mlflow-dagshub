@@ -1,0 +1,5 @@
+outs:
+- md5: bad73d5bc096a8e19ed79583343016a6
+  size: 692219
+  hash: md5
+  path: udemy_courses.csv
